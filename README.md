@@ -27,7 +27,7 @@ step nudges the noise slightly closer to an image that matches the prompt,
 operating in a compressed **latent space** rather than directly on pixels
 (which is why it's efficient enough to run on a single consumer GPU). This is
 fundamentally different from GPT-2's autoregressive next-token prediction
-(see [`PRODIGY_GA_01`](../PRODIGY_GA_01)) — one predicts a sequence step by
+(see [`PRODIGY_GA_01`](https://github.com/anurita-bose/PRODIGY_GA_01)) — one predicts a sequence step by
 step, the other refines an entire image step by step.
 
 ## Results
